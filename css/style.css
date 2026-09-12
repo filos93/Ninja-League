@@ -177,9 +177,9 @@ body::before {
 
 .ninja-image {
     position: absolute;
-    right: -550px;
-    top: 100px;
-    width: 450px;
+    right: -250px;
+    top: 50px;
+    width: 160px;
     object-fit: cover;
 
     /* clip-path: inset(
@@ -188,11 +188,14 @@ body::before {
 
     z-index: 10;
 
-    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.35));
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
 }
 
 #app {
-    padding-right: 350px;
+    padding-right: 200px;
 }
 
 /* =========================
@@ -353,12 +356,12 @@ button:active {
 @media (max-width: 1200px) {
 
     #app {
-        padding-right: 220px;
+        padding-right: 200px;
     }
 
     .ninja-image {
         right: -220px;
-        width: 220px;
+        width: 140px;
     }
 
 }
@@ -388,13 +391,17 @@ button:active {
     .ninja-image {
         position: static;
 
-        width: 170px;
+        width: 60px;
 
         display: block;
 
         margin: 0 auto 1rem auto;
 
         transform: none;
+
+        filter: drop-shadow(
+            0 6px 12px rgba(0, 0, 0, 0.3)
+        );
     }
 
     .buttons {
