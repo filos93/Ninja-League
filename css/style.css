@@ -177,12 +177,9 @@ body::before {
 
 .ninja-image {
     position: absolute;
-
-    right: -560px;
-    top: 50;
-
-    width: 460px;
-
+    right: -550px;
+    top: 100px;
+    width: 450px;
     object-fit: cover;
 
     /* clip-path: inset(
@@ -190,6 +187,8 @@ body::before {
     ); */
 
     z-index: 10;
+
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
 }
 
 #app {

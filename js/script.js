@@ -68,7 +68,7 @@ const ranks = [
     {
         minLevel: 20,
         title: "Genin",
-        image: "genin.jpg"
+        image: "genin.png"
     },
     {
         minLevel: 40,
