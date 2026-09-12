@@ -178,22 +178,22 @@ body::before {
 .ninja-image {
     position: absolute;
 
-    top: 50%;
-    right: -260px;
+    right: -560px;
+    top: 50;
 
-    transform: translateY(-50%);
+    width: 460px;
 
-    width: 300px;
+    object-fit: cover;
 
-    max-width: none;
+    /* clip-path: inset(
+        0px 60px 0px 60px
+    ); */
 
-    margin: 0;
-
-    pointer-events: none;
+    z-index: 10;
 }
 
 #app {
-    padding-right: 300px;
+    padding-right: 350px;
 }
 
 /* =========================
@@ -351,7 +351,7 @@ button:active {
    RESPONSIVE
 ========================= */
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
 
     .container {
         padding: 1.5rem;
@@ -365,8 +365,13 @@ button:active {
         font-size: 2.3rem;
     }
 
+    #app {
+        padding-right: 0;
+    }
+
     .ninja-image {
-        width: 170px;
+        display: none;
+        /*width: 170px;*/
     }
 
     .buttons {
