@@ -1,0 +1,19 @@
+*then CUSTOMIZE for soccer teams (colors)
+**for major consistency ADD same face structure, same hairstyle, same character progression, same color palette, evolutionary character design
+
+(Used Nano Banana 2 on Gemini)
+
+STUDENT PROMPT (then customized for team colors)
+Young ninja student, original anime-inspired character, simple training clothes, dark blue tunic, white belt, basic sandals, small training pouch, no weapons, beginner appearance, clean silhouette, standing pose, full body, character design sheet, neutral light gray background, high detail, vibrant colors, professional illustration, no text, no logo
+
+GENIN PROMPT
+Ninja genin, original anime-inspired character, dark blue and green outfit, forehead protector without symbols, small kunai pouch, arm guards, confident stance, full body, detailed character illustration, neutral gray background, clean design, vibrant colors, no text
+
+CHUNIN PROMPT
+Ninja chunin, original anime-inspired character, tactical vest, dark green shinobi uniform, utility belt, fingerless gloves, confident posture, experienced ninja warrior, full body character artwork, neutral gray background, highly detailed, no text
+
+JONIN PROMPT
+Elite ninja jonin, original anime-inspired character, advanced shinobi armor pieces, dark tactical uniform, long scarf, elite warrior appearance, powerful calm stance, full body, anime-inspired illustration, neutral background, highly detailed, no text
+
+KAGE PROMPT
+Legendary ninja leader, original anime-inspired character, ceremonial shinobi cloak, elegant dark armor, long cape, powerful heroic pose, master ninja appearance, full body character art, neutral gray background, epic anime-inspired style, highly detailed, no text
