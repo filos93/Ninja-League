@@ -348,7 +348,24 @@ button:active {
 }
 
 /* =========================
-   RESPONSIVE
+   RESPONSIVE TABLET
+========================= */
+
+@media (max-width: 1200px) {
+
+    #app {
+        padding-right: 220px;
+    }
+
+    .ninja-image {
+        right: -220px;
+        width: 220px;
+    }
+
+}
+
+/* =========================
+   RESPONSIVE MOBILE
 ========================= */
 
 @media (max-width: 900px) {
@@ -370,8 +387,15 @@ button:active {
     }
 
     .ninja-image {
-        display: none;
-        /*width: 170px;*/
+        position: static;
+
+        width: 170px;
+
+        display: block;
+
+        margin: 0 auto 1rem auto;
+
+        transform: none;
     }
 
     .buttons {
