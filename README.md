@@ -1,8 +1,6 @@
 # 🥷⚽ Ninja League
 
-<p align="center">
-  img/logo.png
-</p>
+<img width="300" height="300" alt="logo" src="https://github.com/user-attachments/assets/dfc48a35-a649-43d6-af42-5fd7dd5809ac" />
 
 > Choose Your Team. Train Your Ninja. Become Kage.
 
