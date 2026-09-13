@@ -63,7 +63,7 @@ const ranks = [
     {
         minLevel: 0,
         title: "Student",
-        image: "student.jpg"
+        image: "student.png"
     },
     {
         minLevel: 20,
@@ -73,18 +73,18 @@ const ranks = [
     {
         minLevel: 40,
         title: "Chunin",
-        image: "chunin.jpg"
+        image: "chunin.png"
     },
     {
         minLevel: 60,
         title: "Jonin",
-        image: "jonin.jpg"
+        image: "jonin.png"
     },
 
     {
         minLevel: 80,
         title: "Kage",
-        image: "kage.jpg"
+        image: "kage.png"
     }
 ];
 

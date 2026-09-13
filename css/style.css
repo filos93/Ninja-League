@@ -171,15 +171,19 @@ body::before {
         0 0 8px rgba(255,215,0,.6);
 }
 
+.message:empty {
+    display: none;
+}
+
 /* =========================
    NINJA IMAGE
 ========================= */
 
 .ninja-image {
     position: absolute;
-    right: -250px;
-    top: 50px;
-    width: 160px;
+    right: -350px;
+    top: 80px;
+    width: 400px;
     object-fit: cover;
 
     /* clip-path: inset(
@@ -360,8 +364,9 @@ button:active {
     }
 
     .ninja-image {
-        right: -220px;
-        width: 140px;
+        right: -300px;
+        width: 350px;
+        top: 90px;
     }
 
 }
@@ -391,7 +396,7 @@ button:active {
     .ninja-image {
         position: static;
 
-        width: 60px;
+        width: 200px;
 
         display: block;
 
