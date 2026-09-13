@@ -91,15 +91,15 @@ const ranks = [
 const themes = [
     {
         value: "roma",
-        label: "Roma"
+        label: "🟡🔴 ROMA"
     },
     {
         value: "napoli",
-        label: "Napoli"
+        label: "🔵 NAPOLI"
     },
     {
         value: "juventus",
-        label: "Juventus"
+        label: "⚪⚫ JUVENTUS"
     }
 ];
 

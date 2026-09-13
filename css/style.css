@@ -35,29 +35,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
     transition: background 0.5s ease;
-
     position: relative;
     overflow: hidden;
 }
 
 body::before {
     content: "";
-
     position: fixed;
     inset: 0;
-
     z-index: -1;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    /* filter: brightness(0.8) blur(1px); */
-
     animation: zoomBackground 15s ease-in-out infinite alternate;
 }
 
@@ -99,18 +90,12 @@ body::before {
 .container {
     position: relative;
     overflow: visible;
-
     width: 380px;
     max-width: 90%;
-
     padding: 1.5rem;
-
     text-align: center;
-
     border-radius: 20px;
-
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-
     backdrop-filter: blur(10px);
 }
 
@@ -119,15 +104,15 @@ body::before {
 ========================= */
 
 .card-roma {
-    background: rgba(120, 20, 20, 0.92);
+    background: rgba(120, 20, 20, 0.80);
 }
 
 .card-napoli {
-    background: rgba(0, 80, 180, 0.92);
+    background: rgba(0, 80, 180, 0.80);
 }
 
 .card-juventus {
-    background: rgba(30, 30, 30, 0.92);
+    background: rgba(68, 68, 68, 0.80);
 }
 
 /* =========================
@@ -142,20 +127,20 @@ body::before {
 
 .subtitle {
     margin-bottom: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: #000000;
     line-height: 1.5;
 }
 
 .level {
-    font-size: 2.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #000000;
     margin-bottom: 0.5rem;
 }
 
 .rank {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #000000;
     margin-bottom: 1rem;
