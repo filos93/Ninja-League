@@ -235,3 +235,8 @@ The project successfully combines technical JavaScript concepts with creative us
 **Filippo La Greca**
 
 Developed with ❤️ using HTML, CSS and Vanilla JavaScript.
+
+## License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
