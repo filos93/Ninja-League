@@ -218,7 +218,7 @@ the application delivers a more engaging user experience than a traditional coun
 
 ---
 
-## 🔴 Screenshots
+## 🎥 Live Demo
 
 https://flg-ninja-league.netlify.app/
 
