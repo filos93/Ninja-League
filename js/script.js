@@ -26,7 +26,10 @@
       - buttons
       - theme selector
 
-   5. UI Functions
+   5. Asset Management
+      - preloadBackgrounds()
+
+   6. UI Functions
       - updateUI()
       - updateTheme()
       - updateCardTheme()
@@ -34,26 +37,27 @@
       - updateProgressColor()
       - animateLevel()
 
-   6. Game Logic
+   7. Game Logic
       - getCurrentRank()
       - increaseLevel()
       - decreaseLevel()
       - resetLevel()
 
-   7. Storage
+   8. Storage
       - saveState()
 
-   8. Event Listeners
+   9. Event Listeners
       - buttons
       - theme selector
 
-   9. DOM Mounting
-      - append elements
+   10. DOM Mounting
+       - append elements
 
-   10. Application Init
+   11. Application Init
+       - preloadBackgrounds()
        - updateUI()
 
-================================
+===================================== */
 
 /* =========================
    CONFIGURATION
@@ -228,46 +232,22 @@ themes.forEach(theme => {
 themeSelect.value = state.theme;
 
 /* =========================
-   GAME LOGIC
+   PRELOAD BACKGROUNDS
 ========================= */
 
-function getCurrentRank() {
+function preloadBackgrounds() {
 
-    let currentRank = ranks[0];
+    const backgrounds = [
+        "./img/backgrounds/roma-bg.jpg",
+        "./img/backgrounds/napoli-bg.jpg",
+        "./img/backgrounds/juventus-bg.jpg"
+    ];
 
-    ranks.forEach(rank => {
-
-        if (state.level >= rank.minLevel) {
-            currentRank = rank;
-        }
-
+    backgrounds.forEach(src => {
+        const img = new Image();
+        img.src = src;
     });
 
-    return currentRank;
-}
-
-function increaseLevel() {
-
-    if (state.level < 100) {
-
-        state.level++;
-
-        updateUI();
-
-    }
-
-}
-
-function decreaseLevel() {
-    if (state.level > 0) {
-        state.level--;
-        updateUI();
-    }
-}
-
-function resetLevel() {
-    state.level = 0;
-    updateUI();
 }
 
 /* =========================
@@ -402,6 +382,49 @@ function updateUI() {
 }
 
 /* =========================
+   GAME LOGIC
+========================= */
+
+function getCurrentRank() {
+
+    let currentRank = ranks[0];
+
+    ranks.forEach(rank => {
+
+        if (state.level >= rank.minLevel) {
+            currentRank = rank;
+        }
+
+    });
+
+    return currentRank;
+}
+
+function increaseLevel() {
+
+    if (state.level < 100) {
+
+        state.level++;
+
+        updateUI();
+
+    }
+
+}
+
+function decreaseLevel() {
+    if (state.level > 0) {
+        state.level--;
+        updateUI();
+    }
+}
+
+function resetLevel() {
+    state.level = 0;
+    updateUI();
+}
+
+/* =========================
    STORAGE
 ========================= */
 
@@ -481,4 +504,6 @@ app.appendChild(container);
    INIT
 ========================= */
 
+
+preloadBackgrounds();
 updateUI();
