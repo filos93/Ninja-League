@@ -4,7 +4,7 @@
 
 > Choose Your Team. Train Your Ninja. Become Kage.
 
-Ninja League is a gamified counter application developed with **HTML**, **CSS**, and **Vanilla JavaScript**. Instead of simply increasing a number, players train a ninja, progress through multiple ranks, and represent their favorite team while unlocking visual upgrades along the way.
+Ninja League is a gamified counter application developed with **HTML**, **CSS**, and **JavaScript**. Instead of simply increasing a number, players train a ninja, progress through multiple ranks, and can represent an Italian soccer team while unlocking visual upgrades along the way.
 
 ---
 
@@ -14,7 +14,7 @@ The goal of this project was to transform a traditional counter application into
 
 Players can:
 
-- Select a football team
+- Select an Italian soccer team
 - Gain levels through training
 - Progress through ninja ranks
 - Unlock new ninja appearances
@@ -32,24 +32,24 @@ Progress through five ninja ranks:
 
 | Level Range | Rank |
 |------------|---------|
-| 0 - 19 | Student |
+| 0 - 19  | Student |
 | 20 - 39 | Genin |
 | 40 - 59 | Chunin |
 | 60 - 79 | Jonin |
-| 80+ | Kage |
+| 80+     | Kage |
 
 As the player levels up:
 
+- The experience progress bar advances
 - The character appearance changes
 - The current rank updates
 - Promotion messages are displayed
-- The experience progress bar advances
 
 ---
 
 ### Team Selection
 
-Choose between three teams:
+Choose between three Italian soccer teams:
 
 🟡🔴 **Roma**
 
@@ -84,7 +84,7 @@ Implemented features include:
 
 ### Promotion System
 
-Players receive custom messages whenever they achieve a new rank.
+Players receive custom messages whenever they achieve a new rank (for now only ITA language supporteed).
 
 Examples:
 
@@ -178,7 +178,7 @@ The application adapts to different screen sizes.
 
 - Optimized spacing
 - Responsive controls
-- Character repositioned for better usability
+- Character repositioned (within card) for better usability
 - Mobile-friendly design
 
 ---
@@ -202,32 +202,19 @@ the application delivers a more engaging user experience than a traditional coun
 
 ### Roma Theme
 
-_Add screenshot here_
+<img width="600" height="400" alt="Roma-theme" src="https://github.com/user-attachments/assets/fd9dd1a1-3be4-4dc4-b228-c029e5cff918" />
 
 ### Napoli Theme
 
-_Add screenshot here_
+<img width="600" height="400" alt="Napoli-theme" src="https://github.com/user-attachments/assets/fcb9ad88-01ec-46eb-9480-7048b0eb3c1f" />
 
 ### Juventus Theme
 
-_Add screenshot here_
+<img width="600" height="400" alt="Juventus-theme" src="https://github.com/user-attachments/assets/35b15e03-9ea5-40b7-8e55-7c4957389bdc" />
 
 ### Mobile Version
 
-_Add screenshot here_
-
----
-
-## ✅ Key Learning Outcomes
-
-This project provided hands-on experience with:
-
-- Building dynamic interfaces using JavaScript
-- Managing application state
-- Creating responsive layouts
-- Working with browser storage
-- Designing gamified user experiences
-- Organizing and maintaining front-end code
+<img width="600" height="400" alt="Mobile-version" src="https://github.com/user-attachments/assets/78263ad1-dc1d-4c6c-a5ba-77797cdfec71" />
 
 ---
 
