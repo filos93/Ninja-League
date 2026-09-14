@@ -218,6 +218,10 @@ the application delivers a more engaging user experience than a traditional coun
 
 ---
 
+## 🎥 Live Demo
+
+https://flg-ninja-league.netlify.app/
+
 ## 🏆 Conclusion
 
 Ninja League demonstrates how a simple counter application can be transformed into a fun and interactive experience through gamification, dynamic content, and responsive design.
