@@ -28,6 +28,7 @@
 
    5. Asset Management
       - preloadBackgrounds()
+      - preloadNinjaImages()
 
    6. UI Functions
       - updateUI()
@@ -232,7 +233,7 @@ themes.forEach(theme => {
 themeSelect.value = state.theme;
 
 /* =========================
-   PRELOAD BACKGROUNDS
+   PRELOAD BACKGROUNDS/NINJA IMAGES
 ========================= */
 
 function preloadBackgrounds() {
@@ -246,6 +247,23 @@ function preloadBackgrounds() {
     backgrounds.forEach(src => {
         const img = new Image();
         img.src = src;
+    });
+
+}
+
+function preloadNinjaImages() {
+
+    themes.forEach(team => {
+
+        ranks.forEach(rank => {
+
+            const img = new Image();
+
+            img.src =
+                `./img/ninja/${team.value}/${rank.image}`;
+
+        });
+
     });
 
 }
@@ -506,4 +524,5 @@ app.appendChild(container);
 
 
 preloadBackgrounds();
+preloadNinjaImages();
 updateUI();
